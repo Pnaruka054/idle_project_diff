@@ -1,0 +1,30 @@
+#root {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: #787878;
+}
+
+.main_div {
+    background-color: rgb(150, 150, 150);
+    min-width: 400px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.main_div::-webkit-scrollbar{
+    width: 0px;
+}
+
+@media (max-width: 480px) {
+    .main_div {
+        min-width: 10px;
+        width: 100vw;
+    }
+}

@@ -1,0 +1,56 @@
+.ad-container{
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-container-child::-webkit-scrollbar{
+    width: 0;
+}
+
+.ad-container-child {
+    position: absolute;
+    width: 90%;
+    height: 95%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 50px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0px 50px 5px black;
+  }
+  
+#ads_text{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+  .timer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .ad-content {
+    text-align: center;
+  }
+  
